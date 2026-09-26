@@ -52,14 +52,21 @@ https://data.montgomerycountymd.gov/Government/Fleet-Equipment-Inventory/93vc-wp
 * Sort out the widths of all columns so that the data is clearly visible in all cells.
 
 > ### *STEP  3 - Empty rows*
+* Use the Filter feature to look for blanks and remove all empty rows from the data.
 
 > ### *STEP  4 - Duplicate records*
+* Use either the Conditional Formatting or Remove Duplicates feature to look for and remove any duplicated records from the data. 
 
 > ### *STEP  5 - Spelling*
+* The original source file data has not been checked for errors in the spelling. Check for spelling mistakes in the data and fix them.
 
 > ### *STEP  6 - Whitespace*
+* Use the Find and Replace feature to remove all double-spaces from the data.
 
 > ### *STEP  7 - Department names*
+* When the data was converted from its data source, the department names (see correct list below) didn’t import correctly and they are now split over two columns in the data. Use Flash Fill to reduce the department names to just one column, and then remove any unnecessary columns.
 
+<img width="1532" height="813" alt="image" src="https://github.com/user-attachments/assets/b4a73e0d-23e6-432b-9ae6-d4aa4a2f1aab" />
 
+                                                 Cleaned Data
 
