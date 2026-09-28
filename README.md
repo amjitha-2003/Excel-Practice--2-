@@ -9,9 +9,6 @@ This project demonstrates my work as a Junior Data Analyst using real-world flee
 
 > PART 2 :- Data Analysis with Pivot Tables
                  Uncovering insights about equipment usage and departmental distribution. These analyses will form the foundation for future data visualizations and reporting.
-<img width="1527" height="812" alt="image" src="https://github.com/user-attachments/assets/f97a67c8-f472-408b-9f31-1448378db92b" />
-
-                                                      Raw data used in Part1 
 
 ## OBJECTIVES
 > Clean and organize the fleet inventory dataset using **Excel for the web**.
@@ -36,6 +33,11 @@ FILES INCLUDED :
 
 ## PART 1 :-
 This practice project is based on a scenario where a Junior Data Analyst works with fleet inventory data from a local government office. The data was provided in CSV format and required cleaning and preparation before analysis.
+
+<img width="1527" height="812" alt="image" src="https://github.com/user-attachments/assets/f97a67c8-f472-408b-9f31-1448378db92b" />
+
+                                                   Raw data used in Part1 
+
 
 #### **The dataset used in this lab comes from the following source:** 
 https://data.montgomerycountymd.gov/Government/Fleet-Equipment-Inventory/93vc-wpdr under a Public Domain license.
@@ -68,5 +70,50 @@ https://data.montgomerycountymd.gov/Government/Fleet-Equipment-Inventory/93vc-wp
 
 <img width="1532" height="813" alt="image" src="https://github.com/user-attachments/assets/b4a73e0d-23e6-432b-9ae6-d4aa4a2f1aab" />
 
-                                                 Cleaned Data
+                                                        Cleaned Data
+
+## PART 2 :-
+I used the previously cleaned fleet inventory data to perform data analysis using Excel for the web. I created Pivot Tables to examine equipment usage, departmental distribution, equipment classes, and inventory counts. The analysis helped identify patterns and summarize key findings that can be used for future dashboard visualizations and reporting.
+
+<img width="1531" height="813" alt="image" src="https://github.com/user-attachments/assets/7895f90e-9bea-44d1-a7e0-9558405e7eb7" />
+
+                                                   Data used for Part 2
+
+> ### *STEP  1 - Format the data as a table*
+* Use the Format as Table option to format the data as a table.
+
+> ### *STEP  2 - Use AutoSum to calculate values*
+* Use AutoSum to find the following values for column ‘C’ and record each of the values:
+>> SUM
+
+>> AVERAGE
+
+>> MINIMUM
+
+>> MAXIMUM
+
+>> COUNT
+
+> ### *STEP  3 - Create a Pivot Table*
+* Create a new worksheet and name it Pivot Table 1.
+* Use the PivotTable feature to create a pivot table that displays the Department field in the Rows section, and the Equipment Count in the Values section, so that the pivot table displays the sum of equipment count by department.
+
+> ### *STEP  4 - Sort the pivot table data*
+* Use the Sort By Value setting on the pivot table to sort it in descending order by the sum of equipment count.
+
+> ### *STEP  5 - Make two more pivot tables exactly the same as task 3*
+* Create two new worksheets named Pivot Table 2 and Pivot Table 3.
+* Follow the same steps you performed in Tasks 3 and 4 to create two more identical pivot tables so that you end up with 3 worksheets that contain identical pivot tables.
+
+> ### *STEP  6 - Analyze data in the pivot table*
+Use the PivotTable Fields pane to manipulate and analyze data in the two copied pivot table as follows:
+* In Pivot Table 2 add the Equipment Class field below the Department field so that the different vehicle types appear under each department with their respective counts.
+* Collapse all fields except the top one - Transportation.
+* In Pivot Table 3 add the Equipment Class field above the Department field so that the different vehicle types appear first, with the different departments listed underneath each vehicle type with their respective counts.
+* Collapse all fields except the top one - CUV.
+* Ensure the worksheets are arranged in the following order in the workbook:
+
+ **Montgomery_Fleet_Equipment_Inventory**, followed by **Pivot Table 1**, **Pivot Table 2**, and **Pivot Table 3**.
+
+
 
