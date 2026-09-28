@@ -115,5 +115,12 @@ Use the PivotTable Fields pane to manipulate and analyze data in the two copied 
 
  **Montgomery_Fleet_Equipment_Inventory**, followed by **Pivot Table 1**, **Pivot Table 2**, and **Pivot Table 3**.
 
+<img width="866" height="565" alt="Screenshot 2026-09-26 225336" src="https://github.com/user-attachments/assets/63ed4fda-d5ed-4557-adcd-d23c7420017f" />
+<img width="710" height="566" alt="Screenshot 2026-09-26 225518" src="https://github.com/user-attachments/assets/2ce26528-6763-42a2-a2df-1e63f2e6b034" />
+<img width="677" height="562" alt="Screenshot 2026-09-26 225536" src="https://github.com/user-attachments/assets/7f499cc8-46b4-43a3-b414-5cc2701b1fa9" />
+<img width="688" height="562" alt="Screenshot 2026-09-26 225554" src="https://github.com/user-attachments/assets/2110e22e-6d9c-49f0-9b23-39a840197d98" />
 
+                                                            Cleaned Data
 
+## CONCLUSION 
+This practice project provided hands-on experience in analyzing fleet inventory data using Excel for the web. In Part 2, I created Pivot Tables to examine the number of vehicles and equipment across departments, equipment classes, and usage categories. These analyses helped summarize the inventory data and identify differences in fleet distribution and equipment usage. The resulting insights can serve as a foundation for creating charts, dashboards, and a data findings report. Overall, the project strengthened my ability to use Pivot Tables to transform structured data into clear and useful information for decision-making.
